@@ -1,0 +1,38 @@
+{
+  "sections" : {
+    "Simple Harmonic Motion" : [
+      "f=\\cfrac{1}{T}",
+      "T=\\cfrac{1}{f}",
+      "\\omega = \\cfrac{2\\pi}{T} = 2\\pi f",
+      "x\\left(t\\right) = x_0 \\sin{\\omega t}",
+      "v\\left(t\\right) = x_0 \\omega \\cos{\\omega t}",
+      "a\\left(t\\right) = -x_0 \\omega^2 \\sin{\\omega t}"
+    ],
+    "Wave Equations" : [
+      "y\\left(x,t\\right) = y_0\\sin\\left({\\omega t - \\kappa x}\\right)",
+      "\\kappa = \\cfrac{2\\pi}{\\lambda}",
+      "\\vec{v} = \\cfrac{\\lambda}{T} = \\lambda f = \\cfrac{\\omega}{\\kappa}",
+      "f_\\text{beats} = \\left|f_1 - f_2\\right|",
+      "f_\\text{average of beats} = \\cfrac{f_1 + f_2}2",
+      "f^\\prime = \\cfrac{c}{c \\mp v_\\text{source}}f_0",
+      "f^\\prime = \\cfrac{c \\pm v_\\text{observer}}{c}f_0",
+      "v_\\text{source} = \\cfrac{f_\\text{front}-f_\\text{back}}{f_\\text{front}+f_\\text{back}}c"
+    ],
+    "Spring": [
+      "F = kx",
+      "F_g=y_0k",
+      "\\omega^2 = \\cfrac k m",
+      "T=2\\pi\\sqrt{\\cfrac m k}"
+    ],
+    "Pendelum": [
+      "F = \\left(\\frac{mg}L\\right)s",
+      "\\omega^2 = \\cfrac g L",
+      "T=2\\pi\\sqrt{\\cfrac L g}",
+      "v_\\text{max} = \\sqrt{2gL\\left(1-\\cos\\theta\\right)}"
+    ],
+    "String": [
+      "v = \\sqrt{\\cfrac{F_T}\\mu}",
+      "\\mu = \\cfrac m L"
+    ]
+  }
+}
