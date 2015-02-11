@@ -1,10 +1,10 @@
-require 'json'
+require 'yaml'
 require 'slim'
 
 class Section
   attr_reader :head, :eqs
 
-  def self.wrap(eq) "<p>\\(#{eq}\\)<p>" end
+  def self.wrap(eq) "<p>\\(#{eq}\\)</p>" end
 
   def to_s
     @head + @eqs.join()
@@ -17,10 +17,10 @@ class Section
   end
 end
 
-sections = JSON.parse(File.read('physics.json'))["sections"].map { |head, eqs| Section.new(head, eqs) }
+sections = YAML.load_file('physics.yml').map { |head, eqs| Section.new(head,eqs) }
 
 template = Slim::Template.new('physics.slim')
 
-File.open('physics.html', 'w') do |f|
+File.open('index.html', 'w') do |f|
   f.write template.render(Object.new, sections: sections)
 end
