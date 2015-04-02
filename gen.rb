@@ -21,6 +21,6 @@ sections = YAML.load_file('eqs.yml').map { |head, eqs| Section.new(head,eqs) }
 
 template = Slim::Template.new('layout.slim')
 
-File.open('index.html', 'w') do |f|
+File.open('index.html', 'w+') do |f|
   f.write template.render(Object.new, sections: sections)
 end
