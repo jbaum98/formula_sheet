@@ -17,9 +17,9 @@ class Section
   end
 end
 
-sections = YAML.load_file('physics.yml').map { |head, eqs| Section.new(head,eqs) }
+sections = YAML.load_file('eqs.yml').map { |head, eqs| Section.new(head,eqs) }
 
-template = Slim::Template.new('physics.slim')
+template = Slim::Template.new('layout.slim')
 
 File.open('index.html', 'w') do |f|
   f.write template.render(Object.new, sections: sections)
