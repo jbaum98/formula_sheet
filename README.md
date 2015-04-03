@@ -12,7 +12,7 @@ Formula Sheet Maker
 
 ### Generate `index.html`
 ```bash
-    $ ruby gen.ruby
+    $ ./gen
 ```
 
 ### Open `index.html` with any web browser
