@@ -1,0 +1,37 @@
+Harmonic Motion:
+  - f=\cfrac{1}{T}
+  - \omega = \cfrac{2\pi}{T} = 2\pi f
+  - x\left(t\right) = x_0 \sin{\omega t}
+  - v\left(t\right) = x_0 \omega \cos{\omega t}
+  - a\left(t\right) = -x_0 \omega^2 \sin{\omega t}
+Wave Equations:
+  - y\left(x,t\right) = y_0\sin\left({\omega t - \kappa x}\right)
+  - \kappa = \cfrac{2\pi}{\lambda}
+  - \vec{v} = \cfrac{\lambda}{T} = \lambda f = \cfrac{\omega}{\kappa}
+  - f_\text{beats} = \left|f_1 - f_2\right|
+  - f_\text{average of beats} = \cfrac{f_1 + f_2}2
+Intensity:
+  - I\propto A^2
+  - 1\text{dB} = 10\log{\cfrac 1 I_0}
+  - I\frac{\text{watt}}{\text{m}^2} = 10\log{\cfrac I I_0}\text{dB}
+  - I\text{dB} = 10^{\frac{I}{10}}I_0
+  - I\left(r\right) = k\cfrac{1}{4\pi r^2}
+Doppler:
+  - f^\prime = \cfrac{c}{c \mp v_\text{source}}f_0
+  - f^\prime = \cfrac{c \pm v_\text{observer}}{c}f_0
+  - v_\text{source} = \cfrac{f_\text{front}-f_\text{back}}{f_\text{front}+f_\text{back}}c
+Spring:
+  - F = kx
+  - F_g=ky_0
+  - \omega^2 = \cfrac k m
+  - T=2\pi\sqrt{\cfrac m k}
+  - PE = \frac 1 2 k x^2
+Pendelum:
+  - F = \left(\frac{mg}L\right)s
+  - \omega^2 = \cfrac g L
+  - T=2\pi\sqrt{\cfrac L g}
+  - v_\text{max} = \sqrt{2gL\left(1-\cos\theta\right)}
+String:
+  - v = \sqrt{\cfrac{F_T}\mu}
+  - \mu = \cfrac m L
+  - v_1r_1 = v_2r_2
