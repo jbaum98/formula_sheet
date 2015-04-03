@@ -1,0 +1,21 @@
+Constants:
+  - k = 9 \times 10^{9}
+  - M_\text{electron} = 9.11 \times 10^{-31} \text{kg}
+  - q_e = 1.6 \times 10^{-19} \text{C}
+  - M_\text{proton} = 1.67 \times 10^{-27} \text{kg}
+  - h = 6.63 \times 10^{-34}
+  - \hbar = \cfrac{h}{2\pi}
+  - r = \cfrac{\hbar^2}{kq_e^2m}
+  - \varepsilon_0 = 8.854 \times 10^{-12}
+Electric Field:
+  - \vec{F} = k\cfrac{q_1q_2}{r^2}
+  - \vec{E} = \cfrac{\vec{F}}{q} = k\cfrac{q}{r^2}
+Electric Potential:
+  - W = qV  = q\vec{E} \cdot \Delta{\vec{d}}
+  - V = \cfrac{\Delta{\text{PE}}}{q}
+  - V = k\cfrac{q}{r}
+Capacitance:
+  - C = \cfrac{q}{V}
+  - C = \varepsilon\varepsilon_0\cfrac{A}{d}
+  - W = \frac{1}{2}qV
+  - \text{PE} = \frac{1}{2}qV = \frac{1}{2}CV^2 = \frac{1}{2}\cfrac{q^2}{C}
