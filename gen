@@ -6,17 +6,19 @@ require 'slim'
 class Section
   attr_reader :head, :eqs
 
-  def self.wrap(eq) "<p>\\(#{eq}\\)</p>" end
+  def initialize(head, eqs)
+    @head = "<h1>#{head}</h1>"
+    @eqs = eqs.map &method(:format)
+  end
 
   def to_s
     @head + @eqs.join()
   end
 
+  private
 
-  def initialize(head, eqs)
-    @head = "<h1>#{head}</h1>"
-    @eqs = eqs.map{ |eq| Section.wrap(eq) }
-  end
+  def format(eq) "<p>\\[#{eq}\\]</p>" end
+
 end
 
 sections = YAML.load_file('eqs.yml').map { |head, eqs| Section.new(head,eqs) }
