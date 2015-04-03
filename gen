@@ -8,7 +8,7 @@ class Section
 
   def initialize(head, eqs)
     @head = "<h1>#{head}</h1>"
-    @eqs = eqs.map &method(:format)
+    @eqs = eqs.map{ |eq| format integral(*eq) }
   end
 
   def to_s
@@ -16,6 +16,10 @@ class Section
   end
 
   private
+
+  def integral(integrand, result, var="x")
+    eq = "\\int{ #{integrand} \\,d#{var}} = #{result} + C"
+  end
 
   def format(eq) "<p>\\[#{eq}\\]</p>" end
 
