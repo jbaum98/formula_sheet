@@ -1,7 +1,11 @@
+Constants:
+  - M_\text{electron} = 9.11 \times 10^{-31} \text{kg}
+  - M_\text{proton} = 1.67 \times 10^{-27} \text{kg}
+  - q_e = 1.6 \times 10^{-19} \text{C}
+  - \mu_0 = 4\pi \cdot 10^{-7} \frac{\text{T}\text{m}}{\text{A}}
 Magnetic Field:
   - \vec{F}_L = q\vec{v} \times \vec{B}
   - F_L = qvB\sin{\theta}
   - \vec{F}_L = L\vec{I} \times \vec{B}
   - F_L = LIB\sin{\theta}
   - \vec{B} = \cfrac{\mu_0\vec{I}}{2\pi r}
-  - \mu_0 = 4\pi \cdot 10^{-7} \frac{\text{T}\text{m}}{\text{A}}
