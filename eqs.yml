@@ -1,0 +1,17 @@
+Triginometric:
+  - ["\\sin{\\theta}", "-\\cos{\\theta}", "\\theta"]
+  - ["\\cos{\\theta}", "\\sin{\\theta}", "\\theta"]
+  - ["\\tan{\\theta}", "-\\ln\\left({\\cos{\\theta}}\\right)", "\\theta"]
+  - ["\\sec{\\theta}", "\\ln\\left|{\\tan{\\theta} + \\sec{\\theta}}\\right|", "\\theta"]
+  - ["\\csc{\\theta}", "\\ln\\left|{\\cot{\\theta} - \\csc{\\theta}}\\right|", "\\theta"]
+  - ["\\cot{\\theta}", "\\ln\\left({\\sin{\\theta}}\\right)", "\\theta"]
+Inverse Triginometric:
+  - ["\\cfrac{1}{\\sqrt{1-x^2}}", "\\sin^{-1}{x}"]
+  - ["\\cfrac{1}{1+x^2}", "\\tan^{-1}{x}"]
+  - ["\\cfrac{1}{x\\sqrt{x^2-1}}", "\\sec^{-1}{x}"]
+Exponential:
+  - ["e^x", "e^x"]
+  - ["\\cfrac{1}{x}", "\\ln\\left|{x}\\right|"]
+  - ["\\ln{x}", "\\ln\\left({x}\\right)x-x"]
+Integration by Parts:
+  - ["u", "uV - \\int V \\,du", "V"]
