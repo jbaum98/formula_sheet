@@ -1,0 +1,28 @@
+Constants:
+  - h = 6.63 \times 10^{-34} \text{ J} \cdot \text{s}
+  - 1 \text{ eV} = 1.6 \times 10^{-10} \text{ J}
+  - c = 3 \times 10^8 \text{ m/s}
+Particle-Wave:
+  - E = nhf
+  - c = \lambda f
+  - \lambda = \cfrac{h}{mv}
+  - p = \frac{hf}{c} = \frac{h}{\lambda}
+  - \lambda = \cfrac{2.89 \times 10^6 \text{ nm}}{T}
+Diffraction:
+  - d\sin{\theta} = n\lambda
+  - \cfrac{x}{D} = \tan{\theta} \approx \sin{\theta}
+Photoelectric Effect:
+  - E = KE + W
+  - f_c = \cfrac{W}{h}
+Compton Scattering:
+  - \Delta{\lambda} = \cfrac{h}{m_e c}(1-\cos{\theta})
+Hydrogen Radiation Spectra:
+  - E = -13.6 \text{ eV}\left(\frac{1}{n^2}- \frac{1}{m^2}\right)
+  - \frac{1}{\lambda} = 1.097\times 10^7 \left(\frac{1}{n^2}- \frac{1}{m^2}\right)
+  - > 
+    \begin{array}{lcr} \mbox{Lyman}    & \Rightarrow & n = 1 \\
+                       \mbox{Balmer}   & \Rightarrow & n = 2 \\
+                       \mbox{Paschen}  & \Rightarrow & n = 3 \\
+                       \mbox{Brackett} & \Rightarrow & n = 4 \\
+                       \mbox{Pfund}    & \Rightarrow & n = 5 
+    \end{array}
